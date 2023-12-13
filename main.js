@@ -125,7 +125,7 @@ else
 			let win = wins[i];
 
 			let c = new t.Color();
-			c.setHSL(i * .1, 1.0, .5);
+			c.setHSL(1 * .1, 1.0, .5);
 
 			let s = 100 + i * 50;
 			let cube = new t.Mesh(new t.BoxGeometry(s, s, s), new t.MeshBasicMaterial({color: c , wireframe: true}));
